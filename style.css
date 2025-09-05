@@ -1,3 +1,28 @@
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #eee;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #454545;
+}
 body {
     background: rgb(125, 198, 205);
     color: rgb(45, 45, 45);
@@ -73,38 +98,6 @@ main {
 
 h2, h3 {
     margin: 0px;
-}
-nav {
-  background: rgb(239, 80, 41);
-  margin: 0 auto;
-  display: flex;
-  padding: 10px;
-}
-margin-bottom: 20px propterty
-/* Portfolio styles */
-.content h1 {
-  color: black;
-}
-
-#portfolio {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-#portfolio li {
-  background: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-#portfolio li:hover {
-  background: #eee;
-}
-
-#portfolio a {
-  text-decoration: none;
-  color: #454545;
 }
 /* responsive web design */
 @media screen and (min-width: 120px) and (max-width: 1080px) {
