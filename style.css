@@ -121,7 +121,7 @@ h2, h3 {
 
   #all-contents {
     height: 100ch;
-    margin: none;
+    margin: 0;.
   }
 
   a {
