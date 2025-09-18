@@ -40,8 +40,8 @@ createPlatform(1200, 600, 100, 20, "red");
 
 
     // TODO 3 - Create Collectables
-
-
+createCollectable("max", 600, 300);
+createCollectable("diamond", 150, 150, 0.5, 0.7);
 
     
     // TODO 4 - Create Cannons
