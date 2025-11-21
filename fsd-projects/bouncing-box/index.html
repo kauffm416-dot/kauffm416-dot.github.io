@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -69,7 +70,8 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
-
+var positionX = 0;
+positionX = PositionX + 10; 
 
 
 
@@ -80,7 +82,11 @@
          * If the box drifts off the screen, turn it around!
          */
         function update() {
-
+       moveBoxTo(positionX);
+       positionX += 10;
+       positionX + 10;
+       points = 0;
+       
         
 
           
@@ -94,7 +100,17 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
+          positionX = 0;
+          points++;
+          changeBoxText(points);
+        }
 
+       
+      
+      
+       
+       
+       
 
 
 
@@ -106,3 +122,5 @@
     </script>
   </body>
 </html>
+
+
